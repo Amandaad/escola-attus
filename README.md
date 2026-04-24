@@ -35,7 +35,7 @@ Aplicativo simples em PHP para:
 Usuario admin criado automaticamente na inicializacao:
 
 - e-mail: `admin@escola.local`
-- senha: `admin123`
+- senha: `***`
 
 Esse perfil tem visao de todos os responsaveis, alunos e boletos.
 

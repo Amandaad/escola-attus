@@ -1,0 +1,5 @@
+database.sqlite
+server.out.log
+server.err.log
+.env
+

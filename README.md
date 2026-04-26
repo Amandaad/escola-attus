@@ -27,8 +27,18 @@ Aplicativo simples em PHP para:
 
 ## Como rodar
 
-1. Coloque a pasta no servidor local.
-2. Acesse `http://localhost/app%20exodo/login.php`.
+1. Copie a pasta do projeto para `htdocs` no XAMPP.
+2. Inicie `Apache` e `MySQL` no painel do XAMPP.
+3. Importe o arquivo `schema_mysql.sql` no banco `app_attus` pelo phpMyAdmin.
+4. Confira os dados de conexao em `config.php`.
+5. Acesse `http://localhost/escola-attus/login.php`.
+
+## Checklist rapido
+
+- Banco `app_attus` criado e tabelas importadas;
+- `Apache` e `MySQL` em execucao;
+- `config.php` apontando para `127.0.0.1:3306`;
+- Login carregando em `http://localhost/escola-attus/login.php`.
 
 ## Acesso admin da escola
 

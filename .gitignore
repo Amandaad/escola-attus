@@ -3,3 +3,23 @@ server.out.log
 server.err.log
 .env
 
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+
+# PHP / Composer
+vendor/
+composer.lock
+
+# Node / frontend tooling
+node_modules/
+dist/
+build/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+

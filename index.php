@@ -91,10 +91,12 @@ renderHeader('Dashboard');
             <p><strong>Total de responsaveis:</strong> <?= e((string) count($parents)) ?></p>
             <p><strong>Total de alunos:</strong> <?= e((string) count($students)) ?></p>
             <p><strong>Total de boletos:</strong> <?= e((string) count($boletos)) ?></p>
+            <a href="report_boletos.php"><button type="button" class="btn-secondary">Ver Relatorio IA</button></a>
         <?php else: ?>
             <p class="small">Cadastre alunos e gere boletos por serie.</p>
             <a href="student_create.php"><button type="button">Cadastrar Aluno</button></a>
             <a href="boleto_create.php"><button type="button" class="btn-secondary">Gerar Boleto</button></a>
+            <a href="report_boletos.php"><button type="button" class="btn-secondary">Relatorio IA</button></a>
         <?php endif; ?>
     </section>
 </div>

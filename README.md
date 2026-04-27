@@ -45,6 +45,7 @@ Aplicativo simples em PHP para:
 - Acesse `Relatorio IA` no menu apos login.
 - Sem configuracao extra, o sistema usa recomendacoes inteligentes locais.
 - Para ativar analise com OpenAI, defina a variavel de ambiente `OPENAI_API_KEY`.
+- Acesse `Chat Cobranca IA` para gerar mensagem pronta por responsavel.
 
 ## Acesso admin da escola
 

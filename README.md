@@ -40,6 +40,12 @@ Aplicativo simples em PHP para:
 - `config.php` apontando para `127.0.0.1:3306`;
 - Login carregando em `http://localhost/escola-attus/login.php`.
 
+## Relatorio com IA (opcional)
+
+- Acesse `Relatorio IA` no menu apos login.
+- Sem configuracao extra, o sistema usa recomendacoes inteligentes locais.
+- Para ativar analise com OpenAI, defina a variavel de ambiente `OPENAI_API_KEY`.
+
 ## Acesso admin da escola
 
 Usuario admin criado automaticamente na inicializacao:

@@ -106,6 +106,7 @@ function renderHeader(string $title): void
                         <span class="small">Responsavel: <?= e($parent['name']) ?> (CPF: <?= e(formatCpf((string) ($parent['cpf'] ?? ''))) ?>)</span>
                     <?php endif; ?>
                     <a href="index.php">Dashboard</a>
+                    <a href="report_boletos.php">Relatorio IA</a>
                     <a href="logout.php">Sair</a>
                 <?php else: ?>
                     <a href="login.php">Entrar</a>

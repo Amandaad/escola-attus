@@ -62,6 +62,7 @@ renderHeader('Relatorio Inteligente de Boletos');
                     <li><?= e($recommendation) ?></li>
                 <?php endforeach; ?>
             </ul>
+            <a href="chat_cobranca.php"><button type="button" class="btn-secondary">Abrir Chat Cobranca IA</button></a>
             <form method="post" style="margin-top:12px;">
                 <input type="hidden" name="action" value="gerar_insight_ia">
                 <button type="submit">Gerar insight com IA</button>
